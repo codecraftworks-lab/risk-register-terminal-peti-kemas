@@ -2,7 +2,7 @@
 
 Repository ini berisi *Risk Register* operasional pada lingkungan **Terminal Peti Kemas**, yang disusun secara sistematis untuk mengidentifikasi, menganalisis, mengevaluasi, dan memitigasi risiko lintas fungsi operasional.
 
-Dokumen ini dirancang sebagai alat bantu pengambilan keputusan manajerial, penguatan tata kelola (governance), serta peningkatan kepatuhan dan kinerja operasional terminal.
+Dokumen ini dirancang sebagai alat bantu pengambilan keputusan manajerial, penguatan tata kelola, serta peningkatan kepatuhan dan kinerja operasional terminal.
 
 ---
 
@@ -21,13 +21,12 @@ Risk Register ini bertujuan untuk:
 
 Risiko yang diidentifikasi mencakup berbagai fungsi, antara lain:
 
-- **Legal & Compliance**  
-- **Procurement & Vendor Management**  
-- **Terminal Operations (Vessel Handling & Stevedoring)**  
-- **Documentation & Operational Support**  
+- **Legal**  
+- **Procurement**  
+- **Terminal Operations (Vessel Handling & Stevedoring), Terminal Operation Support, and Terminal Operations Planning & Control**  
 - **Quality Assurance, SMO & OHSE**  
-- **IT & System Access Control**  
-- **Risk Management & Governance**  
+- **IT**  
+- **Risk Management & Compliance**  
 - **Operational Performance Planning & Reporting**
 
 ---
