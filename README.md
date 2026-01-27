@@ -1,108 +1,155 @@
-# Risk Register Operasional Terminal Peti Kemas
+# Operational Risk Management & Quality Monitoring Dashboard – Port Operations
 
-Repository ini berisi *Risk Register* operasional pada lingkungan **Terminal Peti Kemas**, yang disusun secara sistematis untuk mengidentifikasi, menganalisis, mengevaluasi, dan memitigasi risiko lintas fungsi operasional.
+## 📌 Overview
 
-Dokumen ini dirancang sebagai alat bantu pengambilan keputusan manajerial, penguatan tata kelola, serta peningkatan kepatuhan dan kinerja operasional terminal.
+This repository contains an **Operational Risk Management & Quality Monitoring Dashboard** designed to monitor, analyze, and communicate operational risks in **Port Operations** using a structured, data-driven approach. The dashboard provides visibility into current risk exposure, control effectiveness, and mitigation progress across departments to support managerial decision-making.
 
----
-
-## 🎯 Tujuan Penyusunan
-
-Risk Register ini bertujuan untuk:
-- Mengidentifikasi risiko utama pada proses operasional terminal peti kemas  
-- Mengukur tingkat risiko menggunakan pendekatan **Likelihood × Impact**  
-- Menentukan prioritas penanganan risiko berdasarkan level risiko  
-- Menyusun rencana mitigasi yang terukur, jelas, dan memiliki *action owner*  
-- Mendukung praktik **Enterprise Risk Management (ERM)** yang berkelanjutan  
+The solution is developed based on **Enterprise Risk Management (ERM)** principles and **ISO 31000**, integrating risk-based thinking and continuous improvement. In short: practical, decision-oriented, and manager-friendly.
 
 ---
 
-## 🧠 Ruang Lingkup Risiko
+## 🎯 Objectives
 
-Risiko yang diidentifikasi mencakup berbagai fungsi, antara lain:
-
-- **Legal**  
-- **Procurement**  
-- **Terminal Operations (Vessel Handling & Stevedoring), Terminal Operation Support, and Terminal Operations Planning & Control**  
-- **Quality Assurance, SMO & OHSE**  
-- **IT**  
-- **Risk Management & Compliance**  
-- **Operational Performance Planning & Reporting**
+* Identify and map key operational risks in port operations
+* Assess risk levels based on likelihood and impact
+* Evaluate the effectiveness of existing controls
+* Monitor mitigation progress across departments
+* Support risk prioritization and data-driven decisions
 
 ---
 
-## 📊 Metodologi Penilaian Risiko
+## 📊 Dashboard Components & Metrics
 
-Pendekatan yang digunakan mengacu pada praktik manajemen risiko umum (ISO 31000 secara konseptual), meliputi:
+### **1. Risk Summary Indicators**
 
-- **Likelihood (1–5)**: kemungkinan terjadinya risiko  
-- **Impact (1–5)**: dampak terhadap operasional, finansial, reputasi, atau kepatuhan  
-- **Risk Score** = Likelihood × Impact  
-- **Risk Level**:
-  - Low (1–4)
-  - Medium (5–9)
-  - High (10–14)
-  - Extreme (15–25)
+* **Total Risks**: Total number of identified risks
+* **High & Extreme Risks**: Priority risks requiring management attention
+* **Risks with Ineffective Control**: Risks with inadequate or weak controls
+* **Open Mitigation Actions**: Percentage of mitigation actions still ongoing
 
-Setiap risiko dievaluasi berdasarkan:
-- Akar penyebab (*root cause*)
-- Konsekuensi bisnis
-- Kontrol eksisting dan efektivitasnya
-- Rencana mitigasi
-- Status mitigasi dan risiko residual
+### **2. Control Effectiveness**
+
+Pie chart showing the proportion of controls categorized as:
+
+* Effective
+* Partially Effective
+* Ineffective
+
+Used to assess the overall strength of internal control systems.
+
+### **3. Risks by Department**
+
+Treemap visualization displaying risk distribution across departments:
+
+* Operations
+* Procurement
+* Commercial
+* QA & SMO
+* Risk Management
+* IT
+* Human Capital
+* Services
+
+Helps management focus on functions with higher risk exposure.
+
+### **4. Mitigation Status**
+
+Status of risk treatment actions:
+
+* Completed
+* In Progress
+* On Hold
+
+Provides a quick overview of mitigation progress.
+
+### **5. Risk Level Distribution**
+
+Distribution of risks by severity:
+
+* Low
+* Medium
+* High
+* Extreme
+
+Supports prioritization of corrective and preventive actions.
+
+### **6. Risk Matrix (5×5)**
+
+Risk assessment matrix based on:
+
+* **Likelihood**: Rare to Almost Certain
+* **Impact**: Insignificant to Extreme
+
+Visualizes risk severity and concentration areas.
+
+### **7. Department Risk Register Snapshot**
+
+Summary table showing:
+
+* Department
+* First Risk Level
+* First Risk Status
+
+Designed for executive-level overview and cross-functional monitoring.
 
 ---
 
-## 🗂️ Struktur Data Utama
+## 🛠 Tools & Frameworks
 
-Setiap entri risiko memuat informasi berikut:
-
-- Risk ID  
-- Departemen & Proses  
-- Judul dan Deskripsi Risiko  
-- Kategori Risiko  
-- Likelihood, Impact, Risk Score, dan Risk Level  
-- Root Cause & Dampak Bisnis  
-- Existing Control & Control Effectiveness  
-- Mitigation Action, Status, Action Owner  
-- Target Completion Date  
-- Residual Risk  
-
-Struktur ini memastikan risiko tidak hanya *terdaftar*, tetapi juga *dikelola*.
+* **Microsoft Excel** – Risk register and data processing
+* **Dashboard Visualization** – Business intelligence–style dashboard design
+* **Risk Management Frameworks** – ISO 31000, Enterprise Risk Management (ERM)
 
 ---
 
-## 📈 Ringkasan Risiko
+## 🗂 Data Source
 
-Distribusi tingkat risiko menunjukkan bahwa:
-- Risiko **High dan Extreme** masih mendominasi area kritikal seperti kontrak, vendor, dan operasional inti
-- Risiko **Medium dan Low** tetap dimonitor untuk mencegah eskalasi
-- Beberapa risiko telah dimitigasi, namun masih memerlukan pemantauan berkelanjutan
+Data is derived from an **Operational Risk Register**, including:
 
-Intinya: risiko tidak hilang, tapi bisa dikendalikan—asal tidak diabaikan.
+* Risk identification
+* Likelihood and impact assessment
+* Existing controls
+* Mitigation status
+* Risk ownership by department
 
----
-
-## 🧩 Manfaat Repository
-
-Repository ini dapat digunakan sebagai:
-- Contoh *Risk Register* untuk sektor logistik dan pelabuhan  
-- Referensi pembelajaran manajemen risiko operasional  
-- Portofolio akademik maupun profesional (Risk Management, Internal Control, Governance)  
-- Dasar pengembangan dashboard risiko atau audit follow-up log  
+All data is simulated and used solely for portfolio and learning purposes.
 
 ---
 
-## 🚀 Pengembangan Lanjutan (Future Work)
+## 🔍 Key Insights
 
-Potensi pengembangan selanjutnya:
-- Visualisasi risiko dalam bentuk **Risk Heat Map**
-- Integrasi ke dashboard (Excel / BI tools)
-- Penambahan Key Risk Indicator (KRI)
-- Automasi monitoring dan reminder mitigasi
+* High and Extreme risks represent a significant portion of the operational risk profile
+* Most risks have mitigation actions in place, although some controls remain ineffective
+* Operational and procurement functions show relatively higher risk exposure
+
+These insights can support process improvement initiatives, control enhancement, and strategic decision-making.
 
 ---
 
-## 📌 Catatan
+## 📂 Repository Structure
 
-Dokumen ini bersifat simulatif dan edukatif, disusun untuk tujuan pembelajaran dan pengembangan kompetensi di bidang **Risk Management dan Operasional Terminal**.
+```
+Operational-Risk-Management-Dashboard/
+├── Dashboard-Preview/
+├── Risk-Register.xlsx
+└── README.md
+```
+
+---
+
+## 📝 Notes
+
+This repository is developed as a **professional portfolio project** demonstrating capabilities in:
+
+* Operational risk analysis and mapping
+* Risk-based data interpretation
+* Dashboard storytelling for management
+* Quality and operational risk monitoring
+
+---
+
+## 👤 Author
+
+**Irma Rahmawati**
+Industrial Engineering Graduate
+Focus Areas: Operational Risk, Quality Monitoring, Process Improvement
