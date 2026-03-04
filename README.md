@@ -20,6 +20,8 @@ The solution is developed based on **Enterprise Risk Management (ERM)** principl
 
 ## 📊 Dashboard Components & Metrics
 
+![Risk Management Dashboard](Risk%20Management%20Dashboard.jpg)
+
 ### **1. Risk Summary Indicators**
 
 * **Total Risks**: Total number of identified risks
